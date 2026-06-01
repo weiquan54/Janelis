@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Janelis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            min-height: 100vh;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .card {
+            background: rgba(255,255,255,0.06);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 32px;
+            padding: 3rem 4rem;
+            max-width: 680px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin: 0 auto 1.5rem;
+            box-shadow: 0 8px 32px rgba(102,126,234,0.4);
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            font-size: 1rem;
+            font-weight: 300;
+            color: rgba(255,255,255,0.6);
+            margin-bottom: 2.5rem;
+        }
+        .divider {
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 3px;
+            margin: 0 auto 2.5rem;
+        }
+        p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: rgba(255,255,255,0.8);
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 1.2rem;
+            flex-wrap: wrap;
+        }
+        .links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.7rem 1.6rem;
+            border-radius: 40px;
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.15);
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.25s ease;
+        }
+        .links a:hover {
+            background: rgba(255,255,255,0.18);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+        }
+        .footer {
+            margin-top: 2.5rem;
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.3);
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="avatar">J</div>
+        <h1>Janelis</h1>
+        <p class="subtitle">Welcome to my little corner of the internet</p>
+        <div class="divider"></div>
+        <p>
+            Hi there! This is my personal page, crafted with care and a bit of stardust.
+            I'm still shaping this space — stay tuned for what's to come.
+        </p>
+        <div class="links">
+            <a href="https://github.com/weiquan54" target="_blank" rel="noopener">🐙 GitHub</a>
+            <a href="mailto:weiquan54@gmail.com" target="_blank" rel="noopener">✉️ Email</a>
+        </div>
+        <div class="footer">✨ Made with love · 2026</div>
+    </div>
+</body>
+</html>
